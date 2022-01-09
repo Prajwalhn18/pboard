@@ -1,0 +1,26 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.app__buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.app__buttons button {
+    margin-right: 1rem;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(5, 5, 99);
+    color: white;
+    border-radius: 20px;
+}
+
+.app__buttons button:hover {
+    cursor: pointer;
+}
